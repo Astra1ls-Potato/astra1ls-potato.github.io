@@ -1,0 +1,134 @@
+img.PotatoFren {
+    width: 512;
+    height: 512;
+    position: absolute;
+    left: 37%;
+    top: 25%;
+}
+
+div.PotatoStats {
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    left: 75%;
+}
+
+h6 {
+    width: 100%;
+    height: 30px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Arial Black';
+}
+
+div.PotatoButtons {
+    width: 25%;
+    height: 100%;
+}
+
+button.PotatoButton {
+    background-color: rgb(255, 175, 0);
+    border: none;
+    width: 340px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+}
+
+div.GameOver {
+    width: 25%;
+    height: 100;
+    position: absolute;
+    left: 40%;
+    top: 30px;
+    text-align: center;
+    font-family: 'Arial Black';
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+}
+
+div.GameOverButton {
+    width: 25%;
+    height: 100;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+}
+
+button.GameOverButton {
+    border: none;
+    width: 25%;
+    height: 50px;
+    top: 50px;
+    text-align: center;
+    background-color: rgb(255, 175, 0);
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+}
+
+h6.Pregametitle {
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    left: 25%;
+    top: 30px;
+}
+
+button.PlayButton {
+    background-color: rgb(255, 175, 0);
+    border: none;
+    width: 20%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 40%;
+    top: 170px;
+}
+
+button.TutorialButton {
+    background-color: rgb(255, 175, 0);
+    border: none;
+    width: 20%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 40%;
+    top: 250px;
+}
+
+button.UpcomingButton {
+    background-color: rgb(255, 175, 0);
+    border: none;
+    width: 20%;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: inherit;
+    font-family: 'Arial Black';
+    color: rgb(0, 0, 0);
+    position: absolute;
+    left: 40%;
+    top: 330px;
+}
+
+div.TutorialText {
+    width: 25%;
+    height: 800px;
+    font-family: 'Arial Black';
+    font-size: inherit;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 16px;
+}

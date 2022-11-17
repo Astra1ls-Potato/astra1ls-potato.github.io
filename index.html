@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="GameStuff">
+        <div class="PotatoStats">
+            <h6 id="PotatoHealth">Potato Health = 0</h6>
+            <h6 id="PotatoHunger">Potato Hunger = 0</h6>
+            <h6 id="PotatoHydration">Potato Hydration = 0</h6>
+            <h6 id="PotatoMoney">Money = 0</h6>
+            <h6 id="PotatoFood">Food = 0</h6>
+            <h6 id="PotatoDrinks">Drinks = 0</h6>
+        </div>
+    
+        <div class="PotatoButtons">
+            <button class="PotatoButton" onclick="BuyFood()">Buy 1 Food (20 Money)</button>
+            <button class="PotatoButton" onclick="FeedPotato()">Feed Potato 1 Food</button>
+            <button class="PotatoButton" onclick="BuyDrinks()">Buy 1 Drink (10 Money)</button>
+            <button class="PotatoButton" onclick="FeedPotatoDrinks()">Feed Potato 1 Drink</button>
+        </div>
+    
+        <div>
+            <img src="Potato.png" alt="Your Potato Fren" class="PotatoFren" onclick="GetMoney()">
+        </div>
+    
+        <div id="GameOverBox" class="GameOver">
+        </div>
+    
+        <div id="GameOverButtonArea" class="GameOverButton">
+        </div>
+    </div>
+
+    <div id="PregameStuff">
+        <h6 id="PregameTitle" class="Pregametitle">Potato Owning Simulator</h6>
+        <button class="PlayButton" onclick="StartGame()">Play</button>
+        <button class="TutorialButton" onclick="ShowTutorialText()">Tutorial</button>
+        <button class="UpcomingButton" onclick="ShowUpcomingText()">Future Updates</button>
+        <div class="TutorialText" id="TutorialStuff"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
